@@ -1,9 +1,9 @@
 # zakr0112.cc
 
-This is a personal website created for either a portfolio or just something for testing purposes! I will be hosting my projects via this repo, mainly linking back to github with regards to where the files will be hosted
+Welcome to zakr0112.cc! This is my personal website which has been created to host my github projects, and to give vistors a little about me as a person, and what projects i've worked on Thank you for visiting my repo, enjoy!
 
 ## Additional Information
 
-* zakr0112.cc
+* Using the bulma css framework
 * Created by Zak
 * 12/10/2024
