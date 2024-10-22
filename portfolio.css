@@ -16,3 +16,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
+/* Ensure content inside .bgimg stretches correctly */
+.w3-display-middle {
+    flex-grow: 1; /* Ensure this content grows and pushes the background */
+    width: 100%;
+}
