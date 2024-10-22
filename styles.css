@@ -22,3 +22,32 @@ body, html {height: 100%}
   .button {
     text-decoration: none; 
   }
+
+
+  .box {
+    max-width: 600px; /* Set a max width for the box */
+    margin: 0 auto;   /* Center the box */
+    padding: 10px;    /* Add some padding */
+  }
+  
+  .media {
+    display: flex;           /* Use flexbox for layout */
+    flex-direction: row;    /* Row direction for desktop */
+    align-items: center;     /* Center items vertically */
+  }
+  
+  .media-left {
+    margin-right: 15px;     /* Space between image and text */
+  }
+  
+  @media (max-width: 768px) {
+    .media {
+      flex-direction: column; /* Column direction for mobile */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .media-left {
+      margin-bottom: 10px;    /* Space below the image on mobile */
+      margin-right: 0;        /* Remove right margin */
+    }
+  }
