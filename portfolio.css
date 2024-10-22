@@ -9,10 +9,10 @@
 
 .box {
     flex: 1 1 calc(30% - 20px); /* Adjust the width for 3 boxes per row */
-    max-width: 400px; /* Set a max width for the boxes */
+    max-width: 1000px; /* Set a max width for the boxes */
     background-color: hsl(220deg 13.04% 9.02%); /* Slightly transparent background */
     border-radius: 8px; /* Rounded corners */
-    padding: 30px; /* Padding inside the box */
+    padding: 20px; /* Padding inside the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
