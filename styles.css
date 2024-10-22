@@ -8,9 +8,14 @@ body,h1 {font-family: sans-serif}
 body, html {height: 100%}
 .bgimg {
   background-image: url('https://i.ibb.co/ckWBnrb/steamlogo.jpg');
-  min-height: 100%;
-  background-position: center;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Ensure the background container takes full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align content to start (top of the page) */
+  padding-top: 60px; /* Add space for the navbar */
 }
 
 .buttons-container {
