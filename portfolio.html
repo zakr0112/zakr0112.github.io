@@ -4,20 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Zakr0112</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <script src="https://kit.fontawesome.com/f71b45a02b.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/ckWBnrb/steamlogo.jpg">
+
+    <style>
+        /* Ensures that each box has a consistent appearance and handles overflow */
+        .box {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            height: auto; /* Allow boxes to grow with content */
+            border: 1px solid #dbdbdb; /* Add a border for visibility */
+            border-radius: 5px; /* Rounded corners */
+            overflow: hidden; /* Prevent overflow from the box */
+            margin-bottom: 1rem; /* Add space between boxes */
+            background-color: rgb(0, 0, 0); /* Background color for contrast */
+        }
+
+        /* Styles for the media content to adjust text properly */
+        .media-content {
+            flex-grow: 1; /* Allows content to fill available space */
+            display: flex; /* Flexbox layout for content */
+            flex-direction: column; /* Stack items vertically */
+        }
+
+        .image img {
+            max-width: 100%; /* Ensure the image fits within the box */
+            height: auto; /* Maintain aspect ratio */
+        }
+
+        .content {
+            overflow-wrap: break-word; /* Break long words */
+            margin-top: 10px; /* Space between content and the button */
+        }
+
+        a.button {
+            margin-top: auto; /* Push button to the bottom */
+        }
+    </style>
 </head>
 <body>
-
-
-
-
 
 <ul>
     <li><a class="button is-responsive is-large is-info is-dark is-outlined" href="index.html">Home</a></li>
@@ -31,81 +63,85 @@
         <hr class="w3-border-black" style="margin:auto;width:100%">
         <br>
 
-        <div class="box-container">
-            <div class="box">
-                <article class="media">
-                    <div class="media-left">
-                        <figure class="image is-64x64">
-                            <img src="https://i.ibb.co/kx7FSJw/1-Default-Duck.png" alt="Image" />
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong>Ducky Clicker</strong>
-                                <br />
-                                2D money clicker game written in python
-                            </p>
+        <div class="columns is-multiline">
+            <div class="column is-half">
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="https://i.ibb.co/kx7FSJw/1-Default-Duck.png" alt="Image" />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>Ducky Clicker</strong>
+                                    <br />
+                                    2D money clicker game written in Python. This game is designed to be fun and engaging. 
+                                </p>
+                            </div>
                             <a href="https://github.com/zakr0112/DuckyClicker/releases" class="button is-link">View</a>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                </div>
             </div>
-            <div class="box">
-                <article class="media">
-                    <div class="media-left">
-                        <figure class="image is-64x64">
-                            <img src="https://i.ibb.co/ckWBnrb/steamlogo.jpg" alt="Image" />
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong>Zakr0112.cc</strong>
-                                <br />
-                                Website written in HTML with bulma CSS
-                            </p>
+            <div class="column is-half">
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="https://i.ibb.co/ckWBnrb/steamlogo.jpg" alt="Image" />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>Zakr0112.cc</strong>
+                                    <br />
+                                    Website written in HTML with Bulma CSS. This site showcases my work and projects.
+                                </p>
+                            </div>
                             <a href="https://github.com/zakr0112/zakr0112.github.io" class="button is-link">View</a>
                         </div>
-                    </div>
-                </article>
+                    </article>
+                </div>
             </div>
-            <div class="box">
-              <article class="media">
-                  <div class="media-left">
-                      <figure class="image is-64x64">
-                          <img src="https://i.ibb.co/3f4sg9m/minebloxpe.png" alt="Image" />
-                      </figure>
-                  </div>
-                  <div class="media-content">
-                      <div class="content">
-                          <p>
-                              <strong>MinebloxPE</strong>
-                              <br />
-                              Archived website for minebloxpe, a pocketmine server hosted on leet from 2015 - 2024
-                          </p>
-                          <a href="https://minebloxpe.weebly.com" class="button is-link">View</a>
-                      </div>
-                  </div>
-              </article>
-          </div>
-            
+            <div class="column is-half">
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="https://i.ibb.co/3f4sg9m/minebloxpe.png" alt="Image" />
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>MinebloxPE</strong>
+                                    <br />
+                                    Archived website for MinebloxPE, a PocketMine server hosted on Leet from 2015 - 2024.
+                                </p>
+                            </div>
+                            <a href="https://minebloxpe.weebly.com" class="button is-link">View</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-
 <footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      <strong>zakr0112</strong> by <a href="https://github.com/zakr0112" target="_blank">Zak Richards</a>.
-    </p>
-    <nav class="footer-nav">
-      <a href="index.html">Home |</a>
-      <a href="about.html"> About |</a>
-      <a href="portfolio.html">Portfolio</a>
-    </nav>
-  </div>
+    <div class="content has-text-centered">
+        <p>
+            <strong>zakr0112</strong> by <a href="https://github.com/zakr0112" target="_blank">Zak Richards</a>.
+        </p>
+        <nav class="footer-nav">
+            <a href="index.html">Home |</a>
+            <a href="about.html"> About |</a>
+            <a href="portfolio.html">Portfolio</a>
+        </nav>
+    </div>
 </footer>
 </body>
 </html>
