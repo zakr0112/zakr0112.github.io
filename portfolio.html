@@ -14,6 +14,43 @@
     <script src="https://kit.fontawesome.com/f71b45a02b.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/ckWBnrb/steamlogo.jpg">
 
+
+    <style>
+
+.main-container {
+    padding-top: 80px; /* Adjust this to fit your navbar’s height */
+}
+
+
+
+.box {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    max-width: 90vw;
+}
+
+
+.bgimg {
+    background-size: cover;
+    background-attachment: local;
+    padding-top: 10px;
+    padding-bottom: 20vh; /* Allows space near footer */
+    min-height: 100vh; /* Ensures background covers full height */
+}
+
+@media (max-width: 768px) {
+    .bgimg {
+        min-height: calc(100vh + 20vh); /* Extends background slightly */
+    }
+    .box {
+        width: 90vw;
+    }
+}
+
+    </style>
     
 </head>
 <body>
@@ -30,94 +67,66 @@
         <hr class="w3-border-black" style="margin:auto;width:100%">
         <br>
 
-        <div class="columns is-multiline">
-            <div class="column is-half">
-                <div class="box">
-                    <article class="media">
-                        <div class="media-left">
-                            <figure class="image is-64x64">
-                                <img src="https://i.ibb.co/kx7FSJw/1-Default-Duck.png" alt="Image" />
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <div class="content">
-                                <p>
-                                    <strong>Ducky Clicker</strong>
-                                    <br />
-                                    2D money clicker game written in Python. This game is designed to be fun and engaging. 
-                                </p>
-                            </div>
-                            <a href="https://github.com/zakr0112/DuckyClicker/releases" class="button is-link">View</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="box">
-                    <article class="media">
-                        <div class="media-left">
-                            <figure class="image is-64x64">
-                                <img src="https://i.ibb.co/ckWBnrb/steamlogo.jpg" alt="Image" />
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <div class="content">
-                                <p>
-                                    <strong>Zakr0112.cc</strong>
-                                    <br />
-                                    Website written in HTML with Bulma CSS. This site showcases my work and projects.
-                                </p>
-                            </div>
-                            <a href="https://github.com/zakr0112/zakr0112.github.io" class="button is-link">View</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="column is-half">
-                <div class="box">
-                    <article class="media">
-                        <div class="media-left">
-                            <figure class="image is-64x64">
-                                <img src="https://i.ibb.co/3f4sg9m/minebloxpe.png" alt="Image" />
-                            </figure>
-                        </div>
-                        <div class="media-content">
-                            <div class="content">
-                                <p>
-                                    <strong>MinebloxPE</strong>
-                                    <br />
-                                    Archived website for MinebloxPE, a PocketMine server hosted on Leet from 2015 - 2024.
-                                </p>
-                            </div>
-                            <a href="https://minebloxpe.weebly.com" class="button is-link">View</a>
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="column is-half">
-              <div class="box">
-                  <article class="media">
-                      <div class="media-left">
-                          <figure class="image is-64x64">
-                              <img src="https://pbs.twimg.com/profile_images/1457671879758684163/FzbMrZuW_400x400.jpg" alt="Image" />
-                          </figure>
-                      </div>
-                      <div class="media-content">
-                          <div class="content">
-                              <p>
-                                  <strong>Madforgames</strong>
-                                  <br />
-                                  madforgames website created for college assignment in 2021
-                              </p>
-                          </div>
-                          <button class="button is-danger" title="Disabled button" disabled>
-                            View
-                          </button>
-                      </div>
-                  </article>
+        <div class="box">
+              <div class="media-right">
+                <figure></figure>
+
               </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Ducky Clicker</strong>
+                    <br>
+                    2D money clicker game written in Python. This game is designed to be fun and engaging. 
+                  </p>
+                  <a href="https://github.com/zakr0112/DuckyClicker" class="button is-link">View</a>
+                </a>
+                <a href="https://github.com/zakr0112/DuckyClicker/releases" class="button is-primary">
+                  <span class="icon">
+                    <i class="fa-solid fa-download"></i>
+                  </span>
+                  <span>Download</span>
+                </a>
+                  <br><br>
+                  <hr class="w3-border-black" style="margin:auto;width:100%">
+                  <br><br>
+                  <p>
+                    <strong>Zakr0112.cc</strong>
+                    <br>
+                    Website written in HTML with Bulma CSS. This site showcases my work and projects.
+                  </p>
+                  <a href="https://github.com/zakr0112/zakr0112.github.io" class="button is-link">View</a>
+                  <br><br>
+                  <hr class="w3-border-black" style="margin:auto;width:100%">
+                  <br><br>
+                  <p>
+                    <strong>MinebloxPE</strong>
+                    <br>
+                    Archived website for MinebloxPE, a PocketMine server hosted on Leet from 2015 - 2024. 
+                  </p>
+                  <a href="https://minebloxpe.weebly.com" class="button is-link">View</a>
+                  <br><br>
+                  <hr class="w3-border-black" style="margin:auto;width:100%">
+                  <br>
+                  <br>
+                  <p>
+                    <strong>Madforgames</strong>
+                    <br>
+                    madforgames website created for college assignment in 2021
+                  </p>
+                  <button class="button is-danger" title="Disabled button" disabled>
+                    View
+                  </button>
+                  <br>
+                </div>
+                  </div>
+              
+            </article>
           </div>
-        </div>
+
+         
+          
+        
     </div>
     <br><br><br><br>
 </div>
