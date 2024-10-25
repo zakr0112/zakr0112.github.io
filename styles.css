@@ -50,7 +50,7 @@ body, html {height: 100%}
   }
 
   .strong {
-    color: var(--bulma-strong-color);
+    color: white;
     font-weight: var(--bulma-strong-weight);
 }
 
