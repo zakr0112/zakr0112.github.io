@@ -80,41 +80,6 @@ body, html {height: 100%}
     padding: 10px;
 }
 
-.title.flex-container {
-  font-size: 2rem; /* Adjust font size for mobile */
-  text-align: center;
-  margin-top: 20px;
-}
-
-.portfolio-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 100%;
-  padding: 20px;
-}
-
-.portfolio-item {
-  max-width: 90%; /* Adjust for portrait */
-  width: 300px; /* Default width on larger screens */
-  margin: 10px;
-}
-
-.portfolio-content {
-  text-align: center;
-}
-
-/* Larger screens */
-@media (min-width: 768px) {
-.portfolio-container {
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.portfolio-item {
-  width: 400px;
-}
-}
   
   .media {
     display: flex;           /* Use flexbox for layout */
@@ -137,10 +102,3 @@ body, html {height: 100%}
       margin-right: 0;        /* Remove right margin */
     }
   }
-
-  @media screen and (min-width: 768px) {
-    .columns.is-multiline {
-        max-width: 80%; /* Center within viewport */
-        margin: 0 auto;
-    }
-}
