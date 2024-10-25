@@ -33,6 +33,27 @@ body, html {height: 100%}
     --bulma-title-color: white;
   }
 
+  a {
+    color: var(--bulma-link-text);
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: var(--bulma-duration);
+    transition-property: background-color, border-color, color;
+}
+
+  .footer {
+    --bulma-footer-background-color: var(--bulma-scheme-main-bis);
+    --bulma-footer-color: false;
+    --bulma-footer-padding: 3rem 1.5rem 6rem;
+    background-color: var(--bulma-footer-background-color);
+    padding: var(--bulma-footer-padding);
+  }
+
+  strong {
+    color: var(--bulma-strong-color);
+    font-weight: var(--bulma-strong-weight);
+}
+
 
   .box {
     max-width: 600px; /* Set a max width for the box */
