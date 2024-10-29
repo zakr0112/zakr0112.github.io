@@ -41,6 +41,10 @@ body, html {height: 100%}
     transition-property: background-color, border-color, color;
 }
 
+.h6 {
+  color: white;
+}
+
   .footer {
     --bulma-footer-background-color: var(--bulma-scheme-main-bis);
     --bulma-footer-color: false;
