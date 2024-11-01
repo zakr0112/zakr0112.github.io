@@ -1,0 +1,44 @@
+.main-container {
+    padding-top: 80px; /* Adjust this to fit your navbar’s height */
+}
+
+
+
+.box {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    height: auto;
+    box-sizing: border-box;
+    max-width: 90vw;
+}
+
+
+.bgimg {
+    background-size: cover;
+    background-attachment: local;
+    padding-top: 10px;
+    padding-bottom: 20vh; /* Allows space near footer */
+    min-height: 100vh; /* Ensures background covers full height */
+}
+
+@media (max-width: 768px) {
+    .bgimg {
+        min-height: calc(100vh + 20vh); /* Extends background slightly */
+    }
+    .box {
+        width: 90vw;
+    }
+}
+
+
+
+.p {
+  color: black;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content h6 {
+    color: hsl(0, 0%, 100%);
+    font-weight: var(--bulma-content-heading-weight);
+    line-height: var(--bulma-content-heading-line-height);
+}
