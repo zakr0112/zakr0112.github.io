@@ -6,4 +6,4 @@ Welcome to zakr0112.cc! This is my personal website which has been created to ho
 
 * Using the bulma css framework
 * Created by Zak
-* 12/10/2024
+* 06/10/2024
